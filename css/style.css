@@ -1,0 +1,35 @@
+.mainSection{
+	height: 100vh;
+	background-image: url(../img/bg-masthead.jpg);
+
+}
+
+body{
+	margin: 0;
+}
+.textCenterWrapp h1{
+	margin: 0;
+}
+.textCenterWrapp{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+ .batton{
+	height: 61px;
+	width: 181px;
+	background-color: #1d809f;
+	font-weight: 400;
+	border-radius: 4px;
+	margin-top: 50px;
+	color: white;
+	border: 0;
+	font-size: 17px;
+transition: background-color 2s, font-weight 1.5s;
+
+}
+.batton:hover{
+	background-color: #155d74;
+	font-weight: 800;
+}
