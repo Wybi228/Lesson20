@@ -33,3 +33,40 @@ transition: background-color 2s, font-weight 1.5s;
 	background-color: #155d74;
 	font-weight: 800;
 }
+.service{
+	height: 70vh;
+	background-color: #1d809f;
+	padding: 150px 0;
+}
+.service h2{
+	margin: 0;
+	color: #fff;
+}
+.service h5{
+	margin: 0;
+	color: #ecb807;
+	text-transform: uppercase; 
+	margin-bottom: 10px;
+	font-weight: 800;
+}
+.titleTextWrapp{
+	text-align: center;
+}
+.iconWrapp{
+width: 15%;
+
+}
+.icon{
+	background-color: purple;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+	text-align: center;
+}
+
+.icon svg{
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
